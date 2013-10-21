@@ -1,0 +1,8 @@
+public class Challenge1{
+
+  public static String ArrRandRemove(String[] arr){
+    String A = arr[0]
+      System.out.println(A)
+}
+
+}
