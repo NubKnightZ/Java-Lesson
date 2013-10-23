@@ -1,0 +1,36 @@
+//import java.util.Arrays;
+public class Challenge2{
+
+  public static void BoxTest(int x){
+    int[][] sq = new int[x][x]; 
+    
+//Magic Square Calculation
+  //int y = ((x * ((x * x) + 1)) / 2);
+  //int z = ((x * x) - 1);
+  
+  for(int c = 0; c < z ; c++ ){sq[][]}
+    //sq[0][0] = 1;
+    //sq[0][1] = 2;
+    //sq[0][2] = 3;
+    //sq[1][0] = 4;
+    //sq[1][1] = 5;
+    //sq[1][2] = 6;
+    //sq[2][0] = 7;
+    //sq[2][1] = 8;
+    //sq[2][2] = 9;
+
+//Box Creator
+  for(int a = 0 ; a < x ; a++ )
+  {for(int b = 0 ; b < x ; b++ )
+    {//sq[a][b] = ((a + 1) * (b + 1)); 
+    System.out.print(sq[a][b] + "  ");} 
+  System.out.println("  ");}
+  }
+
+//Main
+  public static void main(String[] args)
+  {
+   BoxTest(3);
+  }
+
+}
