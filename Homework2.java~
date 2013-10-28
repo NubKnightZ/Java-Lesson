@@ -1,0 +1,32 @@
+import java.util.*;
+
+public class Homework2{
+  ArrayList<Integer> arraylist = new ArrayList<Integer>();
+  
+  public void BinarySearch(int x){
+    if (x != (arraylist.size() / 2)){
+    }
+    //else
+      //return (arraylist.size() / 2);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  public static void main(String[] args){
+    Homework2 HW2 = new Homework2();
+    //HW2.BinarySearch();
+    //System.out.println(HW2.BinarySearch(7));
+  }
+  
+  
+}
