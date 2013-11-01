@@ -43,11 +43,21 @@ public class Homework2{
     return(marker + 1);
   }  
   
+  public int RandomSearch(int x){
+    int rand = (int)((Math.random()) * (arraylist.size() - 1));
+    while (arraylist.get(rand) != x){
+      rand = (int)((Math.random()) * (arraylist.size() - 1));
+    }
+    System.out.println(rand + 1);
+    return(rand + 1);
+  }
+  
   
   public static void main(String[] args){
     Homework2 HW2 = new Homework2();
     HW2.Initializer();
-    HW2.BinarySearch(10);
+    HW2.BinarySearch(6);
+    HW2.RandomSearch(6);
   }
   
   
