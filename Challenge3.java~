@@ -1,0 +1,28 @@
+public class Challenge3{
+  
+  public void Initializer(){
+  
+  }
+  
+  public void WordSearch(String word){
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  public static void main(String[] args)
+  {
+    Challenge3 challenge3 = new Challenge3();
+    challenge3.Initializer();
+    challenge3.WordSearch("Hi");
+  }
+}
